@@ -1,0 +1,597 @@
+[
+	{
+		"name": "<invalid>",
+		"symbol": "??",
+		"electrons": []
+	},
+	{
+		"name": "Hydrogen",
+		"symbol": "H",
+		"electrons": [[1]]
+	},
+	{
+		"name": "Helium",
+		"symbol": "He",
+		"electrons": [[2]]
+	},
+	{
+		"name": "Lithium",
+		"symbol": "Li",
+		"electrons": [[2], [1]]
+	},
+	{
+		"name": "Beryllium",
+		"symbol": "Be",
+		"electrons": [[2], [2]]
+	},
+	{
+		"name": "Boron",
+		"symbol": "B",
+		"electrons": [[2], [2, 1]]
+	},
+	{
+		"name": "Carbon",
+		"symbol": "C",
+		"electrons": [[2], [2, 2]]
+	},
+	{
+		"name": "Nitrogen",
+		"symbol": "N",
+		"electrons": [[2], [2, 3]]
+	},
+	{
+		"name": "Oxygen",
+		"symbol": "O",
+		"electrons": [[2], [2, 4]]
+	},
+	{
+		"name": "Fluorine",
+		"symbol": "F",
+		"electrons": [[2], [2, 5]]
+	},
+	{
+		"name": "Neon",
+		"symbol": "Ne",
+		"electrons": [[2], [2, 6]]
+	},
+	{
+		"name": "Sodium",
+		"symbol": "Na",
+		"electrons": [[2], [2, 6], [1]]
+	},
+	{
+		"name": "Magnesium",
+		"symbol": "Mg",
+		"electrons": [[2], [2, 6], [2]]
+	},
+	{
+		"name": "Aluminium",
+		"symbol": "Al",
+		"electrons": [[2], [2, 6], [2, 1]]
+	},
+	{
+		"name": "Silicon",
+		"symbol": "Si",
+		"electrons": [[2], [2, 6], [2, 2]]
+	},
+	{
+		"name": "Phosphorus",
+		"symbol": "P",
+		"electrons": [[2], [2, 6], [2, 3]]
+	},
+	{
+		"name": "Sulfur",
+		"symbol": "S",
+		"electrons": [[2], [2, 6], [2, 4]]
+	},
+	{
+		"name": "Chlorine",
+		"symbol": "Cl",
+		"electrons": [[2], [2, 6], [2, 5]]
+	},
+	{
+		"name": "Argon",
+		"symbol": "Ar",
+		"electrons": [[2], [2, 6], [2, 6]]
+	},
+	{
+		"name": "Potassium",
+		"symbol": "K",
+		"electrons": [[2], [2, 6], [2, 6], [1]]
+	},
+	{
+		"name": "Calcium",
+		"symbol": "Ca",
+		"electrons": [[2], [2, 6], [2, 6], [2]]
+	},
+	{
+		"name": "Scandium",
+		"symbol": "Sc",
+		"electrons": [[2], [2, 6], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Titanium",
+		"symbol": "Ti",
+		"electrons": [[2], [2, 6], [2, 6, 2], [2]]
+	},
+	{
+		"name": "Vanadium",
+		"symbol": "V",
+		"electrons": [[2], [2, 6], [2, 6, 3], [2]]
+	},
+	{
+		"name": "Chromium",
+		"symbol": "Cr",
+		"electrons": [[2], [2, 6], [2, 6, 5], [1]]
+	},
+	{
+		"name": "Manganese",
+		"symbol": "Mn",
+		"electrons": [[2], [2, 6], [2, 6, 5], [2]]
+	},
+	{
+		"name": "Iron",
+		"symbol": "Fe",
+		"electrons": [[2], [2, 6], [2, 6, 6], [2]]
+	},
+	{
+		"name": "Cobalt",
+		"symbol": "Co",
+		"electrons": [[2], [2, 6], [2, 6, 7], [2]]
+	},
+	{
+		"name": "Nickel",
+		"symbol": "Ni",
+		"electrons": [[2], [2, 6], [2, 6, 8], [2]]
+	},
+	{
+		"name": "Copper",
+		"symbol": "Cu",
+		"electrons": [[2], [2, 6], [2, 6, 10], [1]]
+	},
+	{
+		"name": "Zinc",
+		"symbol": "Zn",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2]]
+	},
+	{
+		"name": "Gallium",
+		"symbol": "Ga",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 1]]
+	},
+	{
+		"name": "Germanium",
+		"symbol": "Ge",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 2]]
+	},
+	{
+		"name": "Arsenic",
+		"symbol": "As",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 3]]
+	},
+	{
+		"name": "Selenium",
+		"symbol": "Se",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 4]]
+	},
+	{
+		"name": "Bromine",
+		"symbol": "Br",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 5]]
+	},
+	{
+		"name": "Krypton",
+		"symbol": "Kr",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6]]
+	},
+	{
+		"name": "Rubidium",
+		"symbol": "Rb",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6], [1]]
+	},
+	{
+		"name": "Strontium",
+		"symbol": "Sr",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6], [2]]
+	},
+	{
+		"name": "Yttrium",
+		"symbol": "Y",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Zirconium",
+		"symbol": "Zr",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 2], [2]]
+	},
+	{
+		"name": "Niobium",
+		"symbol": "Nb",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 4], [1]]
+	},
+	{
+		"name": "Molybdenum",
+		"symbol": "Mo",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 5], [1]]
+	},
+	{
+		"name": "Technetium",
+		"symbol": "Tc",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 5], [2]]
+	},
+	{
+		"name": "Ruthenium",
+		"symbol": "Ru",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 7], [1]]
+	},
+	{
+		"name": "Rhodium",
+		"symbol": "Rh",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 8], [1]]
+	},
+	{
+		"name": "Palladium",
+		"symbol": "Pd",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10]]
+	},
+	{
+		"name": "Silver",
+		"symbol": "Ag",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [1]]
+	},
+	{
+		"name": "Cadmium",
+		"symbol": "Cd",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2]]
+	},
+	{
+		"name": "Indium",
+		"symbol": "In",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 1]]
+	},
+	{
+		"name": "Tin",
+		"symbol": "Sn",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 2]]
+	},
+	{
+		"name": "Antimony",
+		"symbol": "Sb",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 3]]
+	},
+	{
+		"name": "Tellurium",
+		"symbol": "Te",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 4]]
+	},
+	{
+		"name": "Iodine",
+		"symbol": "I",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 5]]
+	},
+	{
+		"name": "Xenon",
+		"symbol": "Xe",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 6]]
+	},
+	{
+		"name": "Caesium",
+		"symbol": "Cs",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 6], [1]]
+	},
+	{
+		"name": "Barium",
+		"symbol": "Ba",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 6], [2]]
+	},
+	{
+		"name": "Lanthanum",
+		"symbol": "La",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Cerium",
+		"symbol": "Ce",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 1], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Praseodymium",
+		"symbol": "Pr",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 3], [2, 6], [2]]
+	},
+	{
+		"name": "Neodymium",
+		"symbol": "Nd",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 4], [2, 6], [2]]
+	},
+	{
+		"name": "Promethium",
+		"symbol": "Pm",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 5], [2, 6], [2]]
+	},
+	{
+		"name": "Samarium",
+		"symbol": "Sm",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 6], [2, 6], [2]]
+	},
+	{
+		"name": "Europium",
+		"symbol": "Eu",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 7], [2, 6], [2]]
+	},
+	{
+		"name": "Gadolinium",
+		"symbol": "Gd",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 7], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Terbium",
+		"symbol": "Tb",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 9], [2, 6], [2]]
+	},
+	{
+		"name": "Dysprosium",
+		"symbol": "Dy",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 10], [2, 6], [2]]
+	},
+	{
+		"name": "Holmium",
+		"symbol": "Ho",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 11], [2, 6], [2]]
+	},
+	{
+		"name": "Erbium",
+		"symbol": "Er",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 12], [2, 6], [2]]
+	},
+	{
+		"name": "Thulium",
+		"symbol": "Tm",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 13], [2, 6], [2]]
+	},
+	{
+		"name": "Ytterbium",
+		"symbol": "Yb",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6], [2]]
+	},
+	{
+		"name": "Lutetium",
+		"symbol": "Lu",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Hafnium",
+		"symbol": "Hf",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 2], [2]]
+	},
+	{
+		"name": "Tantalum",
+		"symbol": "Ta",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 3], [2]]
+	},
+	{
+		"name": "Tungsten",
+		"symbol": "W",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 4], [2]]
+	},
+	{
+		"name": "Rhenium",
+		"symbol": "Re",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 5], [2]]
+	},
+	{
+		"name": "Osmium",
+		"symbol": "Os",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 6], [2]]
+	},
+	{
+		"name": "Iridium",
+		"symbol": "Ir",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 7], [2]]
+	},
+	{
+		"name": "Platinum",
+		"symbol": "Pt",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 9], [1]]
+	},
+	{
+		"name": "Gold",
+		"symbol": "Au",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [1]]
+	},
+	{
+		"name": "Mercury",
+		"symbol": "Hg",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2]]
+	},
+	{
+		"name": "Thallium",
+		"symbol": "Tl",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 1]]
+	},
+	{
+		"name": "Lead",
+		"symbol": "Pb",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 2]]
+	},
+	{
+		"name": "Bismuth",
+		"symbol": "Bi",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 3]]
+	},
+	{
+		"name": "Polonium",
+		"symbol": "Po",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 4]]
+	},
+	{
+		"name": "Astatine",
+		"symbol": "At",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 5]]
+	},
+	{
+		"name": "Radon",
+		"symbol": "Rn",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 6]]
+	},
+	{
+		"name": "Francium",
+		"symbol": "Fr",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 6], [1]]
+	},
+	{
+		"name": "Radium",
+		"symbol": "Ra",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 6], [2]]
+	},
+	{
+		"name": "Actinium",
+		"symbol": "Ac",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Thorium",
+		"symbol": "Th",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10], [2, 6, 2], [2]]
+	},
+	{
+		"name": "Protactinium",
+		"symbol": "Pa",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 2], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Uranium",
+		"symbol": "U",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 3], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Neptunium",
+		"symbol": "Np",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 4], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Plutonium",
+		"symbol": "Pu",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 6], [2, 6], [2]]
+	},
+	{
+		"name": "Americium",
+		"symbol": "Am",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 7], [2, 6], [2]]
+	},
+	{
+		"name": "Curium",
+		"symbol": "Cm",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 7], [2, 6, 1], [2]]
+	},
+	{
+		"name": "Berkelium",
+		"symbol": "Bk",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 9], [2, 6], [2]]
+	},
+	{
+		"name": "Californium",
+		"symbol": "Cf",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 10], [2, 6], [2]]
+	},
+	{
+		"name": "Einsteinium",
+		"symbol": "Es",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 11], [2, 6], [2]]
+	},
+	{
+		"name": "Fermium",
+		"symbol": "Fm",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 12], [2, 6], [2]]
+	},
+	{
+		"name": "Mendelevium",
+		"symbol": "Md",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 13], [2, 6], [2]]
+	},
+	{
+		"name": "Nobelium",
+		"symbol": "No",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6], [2]]
+	},
+	{
+		"name": "Lawrencium",
+		"symbol": "Lr",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6], [2, 1]]
+	},
+	{
+		"name": "Rutherfordium",
+		"symbol": "Rf",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 2], [2]]
+	},
+	{
+		"name": "Dubnium",
+		"symbol": "Db",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 3], [2]]
+	},
+	{
+		"name": "Seaborgium",
+		"symbol": "Sg",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 4], [2]]
+	},
+	{
+		"name": "Bohrium",
+		"symbol": "Bh",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 5], [2]]
+	},
+	{
+		"name": "Hassium",
+		"symbol": "Hs",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 6], [2]]
+	},
+	{
+		"name": "Meitnerium",
+		"symbol": "Mt",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 7], [2]]
+	},
+	{
+		"name": "Darmstadtium",
+		"symbol": "Ds",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 8], [2]]
+	},
+	{
+		"name": "Roentgenium",
+		"symbol": "Rg",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 9], [2]]
+	},
+	{
+		"name": "Copernicium",
+		"symbol": "Cn",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2]]
+	},
+	{
+		"name": "Nihonium",
+		"symbol": "Nh",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2, 1]]
+	},
+	{
+		"name": "Flerovium",
+		"symbol": "Fl",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2, 2]]
+	},
+	{
+		"name": "Moscovium",
+		"symbol": "Mc",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2, 3]]
+	},
+	{
+		"name": "Livermorium",
+		"symbol": "Lv",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2, 4]]
+	},
+	{
+		"name": "Tennessine",
+		"symbol": "Ts",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2, 5]]
+	},
+	{
+		"name": "Oganesson",
+		"symbol": "Og",
+		"electrons": [[2], [2, 6], [2, 6, 10], [2, 6, 10, 14], [2, 6, 10, 14], [2, 6, 10], [2, 6]]
+	}
+]

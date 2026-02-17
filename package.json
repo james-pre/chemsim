@@ -1,0 +1,60 @@
+{
+	"name": "chemsim",
+	"version": "0.0.1",
+	"description": "Simulating chemistry",
+	"author": "James Prevett <jp@jamespre.dev> (https://jamespre.dev)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/james-pre/chemsim.git"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/sponsors/james-pre"
+	},
+	"homepage": "https://github.com/james-pre/chemsim#readme",
+	"bugs": {
+		"url": "https://github.com/james-pre/chemsim/issues"
+	},
+	"license": "",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": "./dist/index.js",
+		"./*": "./dist/*.js"
+	},
+	"files": [
+		"dist",
+		"data"
+	],
+	"scripts": {
+		"format:check": "prettier --check .",
+		"format": "prettier --write .",
+		"lint": "tsc --noEmit && eslint src",
+		"test": "tsx --test",
+		"prepublishOnly": "npx tsc",
+		"postinstall": "patch-package"
+	},
+	"devDependencies": {
+		"eslint": "^9.12.0",
+		"patch-package": "^8.0.1",
+		"prettier": "^3.2.5",
+		"tsx": "^4.19.1",
+		"typedoc": "^0.28.14",
+		"typescript": "5.9.3",
+		"typescript-eslint": "^8.46.1"
+	},
+	"dependencies": {
+		"utilium": "^2.6.0",
+		"zod": "^4.3.6"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"useTabs": true,
+		"trailingComma": "es5",
+		"tabWidth": 4,
+		"printWidth": 120,
+		"arrowParens": "avoid",
+		"experimentalOperatorPosition": "start"
+	}
+}
