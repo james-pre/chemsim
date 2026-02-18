@@ -1,37 +1,29 @@
 import * as z from 'zod';
+import { AtomData, type Atom } from './atom.js';
+import { BondData, type Bond } from './bond.js';
 import { elements } from './metadata.js';
 
-export const XYZ = z.object({
-	x: z.number(),
-	y: z.number(),
-	z: z.number(),
-});
-
-export const Atom = z.object({
-	element: z.int().positive(),
-	hybridization: z.literal(['sp', 'sp2', 'sp3', 'sp3d', 'sp3d2']).nullish(),
-	position: XYZ,
-});
-export interface Atom extends z.infer<typeof Atom> {}
-
-export const BondKind = z.literal(['covalent', 'ionic', 'metallic', 'delocalized', 'multi-center']);
-
-export const Bond = z.object({
-	kind: BondKind,
-	atoms: z.int().nonnegative().array(),
-	order: z.number().nonnegative(),
-});
-export interface Bond extends z.infer<typeof Bond> {}
-
 export const MoleculeData = z.object({
-	atoms: Atom.array(),
-	bonds: Bond.array(),
+	atoms: AtomData.array(),
+	bonds: BondData.array(),
 });
 export interface MoleculeData extends z.infer<typeof MoleculeData> {}
 
-export class Molecule implements MoleculeData {
-	atoms: Atom[] = [];
-	bonds: Bond[] = [];
+export class Molecule {
+	protected atoms: Atom[] = [];
+	protected bonds: Bond[] = [];
+
+	protected nextId = 0;
+
+	addBond(bond: Bond): number {
+		this.bonds.push(bond);
+		return ++this.nextId;
+	}
+
+	addAtom(atom: Atom): number {
+		this.atoms.push(atom);
+		return ++this.nextId;
+	}
 
 	get elementCounts(): number[] {
 		const counts: number[] = [];
@@ -43,7 +35,10 @@ export class Molecule implements MoleculeData {
 	}
 
 	toJSON(): MoleculeData {
-		return MoleculeData.parse(this);
+		return {
+			atoms: this.atoms.map(a => a.toJSON()),
+			bonds: this.bonds.map(b => b.toJSON()),
+		};
 	}
 
 	toString(): string {
