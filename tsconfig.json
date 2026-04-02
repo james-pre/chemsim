@@ -4,6 +4,7 @@
 		"module": "NodeNext",
 		"target": "ESNext",
 		"moduleResolution": "NodeNext",
+		"rootDir": "src",
 		"outDir": "dist",
 		"noImplicitThis": true,
 		"resolveJsonModule": true,
